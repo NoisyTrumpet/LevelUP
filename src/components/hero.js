@@ -1,10 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
-
+import { COLORS } from "../styles/constants"
 import Button from "../components/button"
 import headerImage from "../images/header.png"
 import MockupContent from "./image"
 import mockupFrame from "../images/mockup-frame.png"
+
+
 
 const Header = ({ siteTitle }) => (
   <div
@@ -26,8 +28,8 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
-    <p style={{ textAlign: "center", maxWidth: 440 }}>
+    <h1 style={{ textAlign: "center", fontFamily: "Ready Player One", color: COLORS.levelUpBlue }}>Level UP</h1>
+    <p style={{ textAlign: "center", maxWidth: 440, fontFamily: "azo-sans-web" }}>
       This landing page looks great on all devices and is minimal in design. Add
       what you want and deploy.
     </p>
