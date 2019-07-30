@@ -457,7 +457,9 @@ li > p {
     font-weight: normal;
     font-style: normal;
 }
+/* Custom Fonts */
 
+/* Ready Player One */
 @font-face {
     font-family: 'Ready Player One';
     src: local('Ready Player One'), local('ReadyPlayerOne'),
@@ -467,3 +469,6 @@ li > p {
     font-weight: normal;
     font-style: normal;
 }
+
+/* Azo Sans */
+@import url("https://use.typekit.net/xsf0pzk.css");
