@@ -1,0 +1,6 @@
+@media (max-width: 900px){
+	.heroBanner {
+		background-position: top;
+		margin-top: 80px;
+	}
+}

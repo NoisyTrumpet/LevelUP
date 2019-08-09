@@ -4,6 +4,10 @@ import feature from "../images/feature.png"
 import SectionHeader from "./section-header"
 import { COLORS } from "../styles/constants"
 
+import LevelUpLogo from "../images/LevelUp-Logo.png"
+
+import '../styles/content.css'
+
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
@@ -29,6 +33,13 @@ const Content = () => (
         <img src={feature} alt="a blank card floating over colorful graphics" />
       </div>
     </content>
+
+    <div className="skewCard">
+      <div className="cardCont">
+      <img src={LevelUpLogo} alt="LevelUP Logo" />
+      </div>
+    </div>
+  
   </div>
 )
 
