@@ -52,16 +52,28 @@
 }
 
 .spacer {
-	flex: .1;
+	flex: .1
+}
+
+.navDivide {
+	display: block;
+	height: 100%;
+	max-height: 55px;
+	width: auto;
+	margin: auto;
 }
 
 
 @media (max-width: 900px){
 	.toolbar_logo {
-	margin: auto;
-}
+		margin: auto;
+	}
 
 	.toolbar_nav_items {
+		display: none;
+	}
+
+	.navDivide {
 		display: none;
 	}
 }

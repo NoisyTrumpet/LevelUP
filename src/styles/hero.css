@@ -1,6 +1,60 @@
+.heroDivide {
+	display: block;
+	width: 100%;
+	max-width: 480px;
+	margin: auto;
+	padding: 0 0 .5rem 0;
+}
+
+.heroCont {
+	justify-content: center;
+	margin: 8rem 8rem;
+	width: 480px;
+}
+
+.heroTitle {
+	text-align: center;
+	font-family: "Ready Player One";
+	font-size: 52px;
+	margin-bottom: 0;
+}
+
+.heroTitleBig {
+	font-size: 78px;
+}
+
+@media (max-width: 1200px){
+	.heroCont {
+		margin: 5rem 4rem; 
+	}
+}
+
 @media (max-width: 900px){
 	.heroBanner {
 		background-position: top;
 		margin-top: 80px;
+	}
+	.heroCont {
+		margin: 8rem 3rem; 
+	}
+}
+
+@media (max-width: 768px){
+	.heroCont {
+		margin: 10rem 1rem;
+		width: 400px;
+	}
+	.heroTitle {
+		font-size: 30px;
+	}
+	.heroTitleBig {
+		font-size: 46px;
+	}
+}
+
+@media (max-width: 500px){
+	.heroCont {
+		margin: 10rem auto;
+		width: 320px;
 	}
 }

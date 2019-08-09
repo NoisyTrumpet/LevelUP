@@ -9,7 +9,7 @@ import LevelUpLogo from "../images/LevelUp-Logo.png"
 import '../styles/content.css'
 
 const Content = () => (
-  <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
+  <div id="about" style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
       title="Minimal Features"
       description="Don't spend time ripping out unneeded plugins and bloat."

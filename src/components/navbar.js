@@ -1,6 +1,7 @@
 import React from "react"
 
 import DrawerToggle from "./drawer-toggle"
+import NavLine from "../images/navLine.png"
 
 import '../styles/navbar.css'
 
@@ -11,7 +12,7 @@ const Navbar = () => (
         <DrawerToggle />
       </div>
       <div className="toolbar_logo"><a href="/">THE LOGO</a></div>
-      <div id="spacer" className="spacer"></div>
+      <div className="spacer"><img src={NavLine} className="navDivide" alt="" /></div>
       <div id="DesktopMenu" className="toolbar_nav_items">
         <ul>
           <li><a href="/">About</a></li>
