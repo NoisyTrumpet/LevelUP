@@ -1,0 +1,59 @@
+.contact {
+	display: inline-block;
+	margin: 8rem auto;
+	text-align: center;
+}
+
+.contactMain {
+	display: grid;
+    align-items: top;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(15%, 30%));
+}
+
+.contactCont {
+	display: block;
+	font-size: 1.1rem;
+}
+
+.contactCont h3 {
+	color: #2C65AC;
+	text-shadow: 1px 2px 4px #B0B8BA;
+	font-size: 1.7rem;
+	font-family: "Ready Player One";
+}
+
+.contactForm input {
+	margin: .5rem auto;
+	color: #555;
+	width: 70%;
+	border: none;
+	border-bottom: 2px solid rgba(44, 101, 172, .8);
+}
+
+.contactForm textarea {
+	color: #555;
+}
+
+.contactForm input[type=submit]{
+	max-width: 50%;
+	padding: .5rem 2.5rem;
+    color: #FBFDFF;
+    font-weight: bold;
+    background: linear-gradient(to top right, #50CAF9, #5368f1);
+    border-width: 0;
+    cursor: pointer;
+}
+
+.contactInfo ul, .contactLocation ul {
+	list-style: none;
+/*	text-align: left;*/
+}
+
+.contactLine {
+	position: relative;
+	float: right;
+	width: 40%;
+	margin: auto;
+	right: 15%;
+}

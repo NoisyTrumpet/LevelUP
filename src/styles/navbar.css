@@ -6,6 +6,11 @@
 	height: 80px;
 	z-index: 26;
 	background-color: transparent;
+	transition: 500ms ease;
+}
+
+.toolbar.scrolled {
+	background:#000;
 }
 
 .toolbar_logo {

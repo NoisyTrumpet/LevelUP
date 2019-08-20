@@ -1,0 +1,25 @@
+.footer {
+	padding: 1rem;
+    background-color: transparent;
+}
+
+.footMain {
+	display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 240px));
+
+    font-size: .85rem;
+}
+
+.footSocial {
+	display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 100px));
+    font-size: .85rem;
+}
+
+.footSocial img {
+	padding: 0 1rem;
+}

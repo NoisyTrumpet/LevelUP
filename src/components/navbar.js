@@ -6,6 +6,15 @@ import NavLine from "../images/navLine.png"
 import '../styles/navbar.css'
 
 const Navbar = () => (
+
+  // $(window).scroll(function(){
+  //   $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+  // });
+
+
+
+
+
   <header className="toolbar">
     <nav className="toolbar_nav">
       <div id="MobileMenu">

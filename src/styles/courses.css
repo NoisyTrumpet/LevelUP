@@ -1,0 +1,115 @@
+.coursesSect {
+	font-size: 5rem;
+	font-family: "Ready Player One";
+	z-index: 10;
+	position: relative;
+	top: 175px;
+	left: -210px;
+	margin-top: 0;
+}
+
+.coursesSectSub {
+	font-size: 5rem;
+	font-family: "Ready Player One";
+	z-index: 10;
+	position: relative;
+	top: 130px;
+	left: 273px;
+	margin-top: 0;
+}
+
+.skewCardCourse {
+	transform: skewX(-.15rad);
+	background: #fff;
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+	width: 550px;
+	height: 650px;
+	margin: auto;
+	z-index: 5;
+	position: relative;
+	right: 50px;
+}
+
+.skewCardBackCourse {
+	transform: skewX(-.15rad);
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+	width: 550px;
+	height: 650px;
+	margin: auto;
+	z-index: 1;
+	position: relative;
+	top: 80px;
+	left: 50px;
+}
+
+.cardContCourse {
+	display: block;
+	transform: skewX(.15rad);
+	margin: auto;
+	padding: 1rem;
+	max-width: 500px;
+	font-size: 1.3rem;
+	text-align: left;
+}
+
+.skewCardCourse img {
+	width: 100%;
+	max-width: 550px;
+}
+
+
+.cardContCourse p{
+	left: -15px;
+	margin: auto;
+}
+
+.courses {
+	max-width: 500px;
+	margin: auto;
+	padding: 2.5rem 0;
+}
+
+.courseItem {
+	transform: skewX(.15rad);
+	display: inline-flex;
+	text-align: center;
+	align-items: center;
+    justify-content: space-between;
+}
+
+.coursesDivide {
+	transform: skewX(.15rad);
+	max-width: 300px;
+	width: 100%;
+	height: auto;
+	margin: 1.5rem auto;
+}
+
+.courseItem img {
+	max-height: 120px;
+	width: auto;
+	height: 100%;
+	margin: auto 4rem auto 1.5rem;
+}
+
+.courseItem p{
+	margin: auto 1rem auto 0;
+	font-size: 1.2rem;
+}
+
+.courseSpacer {
+	content: "";
+	margin: auto;
+	padding: 1.5rem;
+}
+
+
+
+.sideLineCourse {
+	height: 100%;
+	max-height: 200px;
+	opacity: 0;
+	position: relative;
+	top: -120px;
+	right: -250px;
+}

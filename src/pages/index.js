@@ -3,9 +3,11 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/hero"
-import Content from "../components/content"
+import About from "../components/about"
+import Courses from "../components/courses"
 import CallToAction from "../components/cta"
 import Navbar from "../components/navbar"
+import Contact from "../components/contact"
 /*import SideDrawer from "../components/side-drawer"
 import Backdrop from "../components/backdrop"*/
 
@@ -40,8 +42,10 @@ const IndexPage = () => (
     {/*<SideDrawer />
     <Backdrop />*/}
     <Hero />
-    <Content />
+    <About />
+    <Courses />
     <CallToAction />
+    <Contact />
   </Layout>
 )
 

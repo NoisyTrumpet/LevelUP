@@ -1,0 +1,42 @@
+.cta {
+	font-family: "Ready Player One";
+	height: 900px;
+  	padding: 5rem 1rem;
+  	margin: 5rem 0;
+  	text-align: center;
+  	background-color: #2C65AC;
+  	transform: skewY(-.05rad);
+}
+
+.ctaCont {
+	transform: skewY(.05rad);
+}
+
+.ctaCont h2 {
+	font-size: 5rem;
+	font-family: "Ready Player One";
+}
+
+.workCont {
+	height: 500px;
+	width: 40%;
+	background-color: #f0f0f0;
+	margin: auto;
+}
+
+.workButton button {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #FBFDFF;
+	width: 350px;
+	height: 100px;
+	margin: 1.5rem auto;
+	border-width: 0;
+	background: linear-gradient(to top right, #50CAF9, #5368f1);
+	box-shadow: 0px 5px 20px -2px rgba(121, 211, 255, 0.25);
+	transition: all 0.5s ease-in-out;
+	cursor: pointer;
+}
+.workButton button:hover {
+	box-shadow: 0px 5px 20px -2px rgba(121, 211, 255, 0.75);
+}
