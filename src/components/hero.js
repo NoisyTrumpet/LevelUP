@@ -29,18 +29,16 @@ const Header = ({ siteTitle }) => (
     }}/>
     <div className="heroCont">
         <h1 className="heroTitle" style={{color: COLORS.levelUpBlue}}>
-        Be Bold<br/><span className="heroTitleBig">Act Now</span></h1>
+        Be bold<br/><span className="heroTitleBig" style={{color: COLORS.levelUpPurple}}>Act Now</span><br/>Learn <span className="heroTitleSmall">and</span> Adapt</h1>
         <img src={HeroLine} className="heroDivide" alt="" />
-        <p style={{textAlign: "left", maxWidth: 480, fontFamily: "azo-sans-web"}}>
-          At <strong>LevelUP</strong>, we're helping take on some of America's most immediatee cyber threats, 
-          combining commercial capabilities and DoD resources to create solutions that are agile, 
-          interoperable, and rapidly deployable, ensuring our enemies operate on anything but a level playing field.
+        <p style={{textAlign: "center", maxWidth: 480, fontFamily: "azo-sans-web", color: COLORS.darkGray}}>
+          <strong>LevelUP Code Works</strong> is a U.S. Air Force software development outfit in San Antonio, Texas.
         </p>
 
-        <div style={{textAlign: "center", marginTop: 50}}>
-            <DownPad />
-        </div>
+    </div>
 
+    <div style={{textAlign: "center", margin: "auto"}}>
+        <DownPad />
     </div>
 
   </div>

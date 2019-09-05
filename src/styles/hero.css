@@ -1,7 +1,7 @@
 .heroDivide {
 	display: block;
 	width: 100%;
-	max-width: 480px;
+	max-width: 500px;
 	margin: auto;
 	padding: 0 0 .5rem 0;
 }
@@ -9,18 +9,24 @@
 .heroCont {
 	justify-content: center;
 	margin: 8rem 8rem;
-	width: 480px;
+	width: 500px;
 }
 
 .heroTitle {
 	text-align: center;
-	font-family: "Ready Player One";
-	font-size: 52px;
+	font-family: "azo-sans-web";
+	font-size: 50px;
 	margin-bottom: 0;
+	font-weight: 100;
 }
 
 .heroTitleBig {
 	font-size: 78px;
+	font-weight: 600;
+}
+
+.heroTitleSmall {
+	font-size: 30px;
 }
 
 

@@ -1,5 +1,7 @@
 import React from "react"
+import { COLORS } from "../styles/constants"
 
+import CourseImg from "../images/levelUP3.png"
 import BodyLine from "../images/bodyLine.png"
 import SideLine from "../images/sideLine.png"
 
@@ -12,8 +14,7 @@ import '../styles/courses.css'
 const Courses = () => (
   <div id="courses" style={{ padding: "0 0 5.5rem 0", textAlign: "center" }}>
     
-      <h1 className="coursesSect">Learn</h1>
-      <h1 className="coursesSectSub"><span style={{fontSize: "2rem"}}>and</span> Adapt</h1>
+      <h1 className="coursesSect" style={{color: COLORS.levelUpPurple}}>Code <span style={{fontSize: "2rem", color: COLORS.levelUpBlue}}>for the</span> win</h1>
 
    <content
       style={{
@@ -25,12 +26,10 @@ const Courses = () => (
     >
 
       <div className="skewCardCourse">
-      <img src={BodyLine} alt="" />
+      {/*<img src={CourseImg} alt="" />*/}
         <div className="cardContCourse">
-          <p>Being lean allows us to validate our assumptions and 
-          mitigate risk at every turn. We are constantly ensuring 
-          that wwe are building the next most valuable thing, the 
-          simplest way, as fast as possible.</p>
+          <p>LevelUP’s directive is to serve as a software factory 
+          to support a full range of Air Force and DoD missions.</p>
         </div>
       </div>
 
@@ -43,12 +42,12 @@ const Courses = () => (
           <img src={BodyLine} alt="" className="coursesDivide" />
           <div className="courseItem">
             <img src={CirComp} alt="" />
-            <p>Mission</p>
+            <p>Focus</p>
           </div>
           <div className="courseSpacer" />
           <div className="courseItem">
             <img src={HandIcon} alt="" />
-            <p>Mission</p>
+            <p>Real Time<br/>Strategy</p>
           </div>
           
           

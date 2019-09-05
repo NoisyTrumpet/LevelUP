@@ -8,10 +8,6 @@
 	margin-top: 0;
 }
 
-.cards{
-	
-}
-
 .skewCard {
 	transform: skewX(-.15rad);
 	background: #fff;
@@ -34,7 +30,14 @@
 	position: relative;
 	top: 80px;
 	left: 40px;
+
+	background-image: url("../images/aboutCode.png");
+	background-repeat: no-repeat;
+	background-position: -300px 0px;
+	background-size: 180%;
 }
+
+
 
 .cardCont {
 	display: block;
@@ -44,14 +47,17 @@
 	max-width: 500px;
 	font-size: 1.3rem;
 	text-align: left;
+	color: #5c6061;
 }
 
 .cardSubTitle{
-	font-family: "Ready Player One";
+	font-family: "azo-sans-web";
 	text-align: center;
-	font-size: 2.5rem;
+	font-size: 3rem;
+	font-weight: 500;
 	margin: auto;
 	margin-top: 7rem;
+	color: #2C65AC;
 }
 
 .cardSubTitle img {
@@ -74,12 +80,25 @@
 	right: -250px;
 }
 
+
+.bottomSect {
+	text-align: center;
+	margin-top: 8rem;
+}
+
+.bottomSect h2 {
+	font-weight: 500;
+	font-size: 1.5rem;
+	margin-bottom: 0;
+}
+
+.botChan1 {
+	font-size: 5rem;
+}
+
 .bottomLine {
-	position: relative;
 	width: 100%;
-	max-width: 500px;
+	max-width: 350px;
 	margin: auto;
-	padding: 0;
-	bottom: -100px;
-	right: 350px;
+	margin-top: -1.5rem;
 }
