@@ -1,25 +1,30 @@
 .cta {
-	font-family: "Ready Player One";
-	height: 900px;
-  	padding: 5rem 1rem;
+	font-family: "azo-sans-web";
+  	padding: 5rem 1rem 3.5rem 1rem;
   	margin: 5rem 0;
   	text-align: center;
-  	background-color: #2C65AC;
+  	background-color: #0714AC;
   	transform: skewY(-.05rad);
 }
 
 .ctaCont {
 	transform: skewY(.05rad);
+	color: #fff;
 }
 
 .ctaCont h2 {
-	font-size: 5rem;
+	font-size: 3.5rem;
 	font-family: "Ready Player One";
+}
+
+.ctaCont h4 {
+	font-size: 1.5rem;
+	font-family: "azo-sans-web";
 }
 
 .workCont {
 	height: 500px;
-	width: 40%;
+	width: 35%;
 	background-color: #f0f0f0;
 	margin: auto;
 }
@@ -27,12 +32,12 @@
 .workButton button {
 	font-size: 2rem;
 	font-weight: bold;
-	color: #FBFDFF;
+	color: #2c65ac;
 	width: 350px;
 	height: 100px;
-	margin: 1.5rem auto;
+	margin: 3rem auto 0 auto;
 	border-width: 0;
-	background: linear-gradient(to top right, #50CAF9, #5368f1);
+	background: #f0f0f0;
 	box-shadow: 0px 5px 20px -2px rgba(121, 211, 255, 0.25);
 	transition: all 0.5s ease-in-out;
 	cursor: pointer;

@@ -3,16 +3,15 @@ import { COLORS } from "../styles/constants"
 
 import SideLine from "../images/sideLine.png"
 import BodyLine from "../images/bodyLine.png"
-/*import aboutImg from "../images/aboutCode.png"*/
 
 import '../styles/about.css'
 
 const About = () => (
-  <div id="about">
+<div id="about" className="aboutMain">
     
-    <div style={{ padding: "4rem 0 5.5rem 0", textAlign: "center" }}>
-      <h1 className="aboutSect">About</h1>
-
+        <h1 className="aboutSect">About</h1>
+        
+<div className="cardSect">
    <content
       style={{
         display: "grid",
@@ -38,14 +37,18 @@ const About = () => (
 
     <div className="cards">
       <div className="skewCardBack">
-        {/*<img src={aboutImg} alt="" />*/}
       </div>
     </div>
-     
-	<img src={SideLine} alt="" className="sideLine" />
-    
+
+      <div className="cards">
+        <div className="sideLine">
+          <img src={SideLine} alt="" />
+        </div>
+      </div>
+
     </content>
 </div>
+
 
   <div className="bottomSect" style={{color: COLORS.levelUpBlue}}>
     <h2>We're not just here to <span style={{color: COLORS.levelUpPurple}}>change<br/>
@@ -55,7 +58,7 @@ const About = () => (
     <img src={BodyLine} alt="" className="bottomLine" />
   </div>
 
-  </div>
+</div>
 )
 
 export default About

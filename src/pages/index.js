@@ -5,11 +5,13 @@ import SEO from "../components/seo"
 import Hero from "../components/hero"
 import About from "../components/about"
 import Courses from "../components/courses"
-import CallToAction from "../components/cta"
+import Federal from "../components/federal"
+import CallToAction from "../components/work"
 import Navbar from "../components/navbar"
 import Contact from "../components/contact"
 /*import SideDrawer from "../components/side-drawer"
 import Backdrop from "../components/backdrop"*/
+import Center from "../components/center"
 
 
 const IndexPage = () => (
@@ -42,10 +44,17 @@ const IndexPage = () => (
     {/*<SideDrawer />
     <Backdrop />*/}
     <Hero />
+    <Center />
     <About />
+    <Center />
     <Courses />
+    <Center />
+    <Federal />
+    <Center />
     <CallToAction />
+    <Center />
     <Contact />
+    <Center />
   </Layout>
 )
 

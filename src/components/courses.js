@@ -1,9 +1,8 @@
 import React from "react"
 import { COLORS } from "../styles/constants"
 
-import CourseImg from "../images/levelUP3.png"
+
 import BodyLine from "../images/bodyLine.png"
-import SideLine from "../images/sideLine.png"
 
 import CirComp from "../images/cirCompIcon.png"
 import BlkComp from "../images/blkCompIcon.png"
@@ -12,7 +11,7 @@ import HandIcon from "../images/handIcon.png"
 import '../styles/courses.css'
 
 const Courses = () => (
-  <div id="courses" style={{ padding: "0 0 5.5rem 0", textAlign: "center" }}>
+  <div id="courses" className="courseMain">
     
       <h1 className="coursesSect" style={{color: COLORS.levelUpPurple}}>Code <span style={{fontSize: "2rem", color: COLORS.levelUpBlue}}>for the</span> win</h1>
 
@@ -26,7 +25,6 @@ const Courses = () => (
     >
 
       <div className="skewCardCourse">
-      {/*<img src={CourseImg} alt="" />*/}
         <div className="cardContCourse">
           <p>LevelUP’s directive is to serve as a software factory 
           to support a full range of Air Force and DoD missions.</p>
@@ -53,8 +51,6 @@ const Courses = () => (
           
         </div>
       </div>
-    
-     <img src={SideLine} alt="" className="sideLineCourse" />
 
     </content>
 

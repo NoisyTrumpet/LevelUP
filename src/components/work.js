@@ -12,7 +12,8 @@ const CallToAction = () => (
       description="Give a final call to action because that's what the cool kids are doing."
     />*/}
     <div className="ctaCont">
-    	<h2>Work With Us</h2>
+    	<h2>Get in the game</h2>
+      <h4>Take your career to the next level.</h4>
 
     	<div className="workCont"></div>
 
