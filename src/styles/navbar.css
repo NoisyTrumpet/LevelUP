@@ -54,11 +54,11 @@
 }
 
 .toolbar_nav_items a:hover {
-	color: #F06D2F;
+	color: #ff9400;
 }
 
 .toolbar_nav_items a:active {
-	color: #81BB4A;
+	color: #70f700;
 }
 
 .spacer {
