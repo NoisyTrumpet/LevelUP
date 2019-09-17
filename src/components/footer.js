@@ -6,7 +6,7 @@ import Facebook from "../images/icons/facebook.svg"
 import Instagram from "../images/icons/instagram.svg"
 import Twitter from "../images/icons/twitter.svg"
 import Linkedin from "../images/icons/linkedin.svg"
-import Logo from "../images/LevelUP-Logo.png"
+import Logo from "../images/LevelUp-Logo.png"
 
 import "../styles/footer.css"
 
