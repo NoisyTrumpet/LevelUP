@@ -1,0 +1,35 @@
+.contact {
+	display: inline-block;
+	margin: 8rem auto 8rem auto;
+	text-align: center;
+}
+
+.contactMain {
+	display: grid;
+    align-items: top;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(15%, 30%));
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.contactCont {
+	display: block;
+	font-size: 1.1rem;
+}
+
+.contactCont h3 {
+	color: #2C65AC;
+	text-shadow: 1px 2px 2px #B0B8BA;
+	font-size: 1.7rem;
+	font-family: "azo-sans-web";
+}
+
+.contactInfo ul, .contactLocation ul {
+	list-style: none;
+}
+
+.contactLine {
+	width: 35%;
+	margin: auto;
+}

@@ -1,56 +1,46 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { COLORS } from "../styles/constants"
-import Button from "../components/button"
-import headerImage from "../images/header.png"
-import MockupContent from "./image"
-import mockupFrame from "../images/mockup-frame.png"
+import DownPad from "../components/downPad"
+import heroImage from "../images/heroBack.png"
+import HeroLine from "../images/heroLine.png"
 
-
+import '../styles/hero.css'
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
+  <div style={{
       display: "flex",
-      alignItems: "center",
+      alignItems: "flex-start",
       flexDirection: "column",
       padding: "4rem 1rem",
-    }}
-  >
-    <div
-      style={{
-        backgroundImage: `url(${headerImage})`,
+  }}>
+    <div className="heroBanner heroTrans" style={{
+        backgroundImage: `url(${heroImage})`,
         position: "absolute",
+        backgroundSize: "cover",
         top: 0,
+        right: 0,
         zIndex: -5,
-        height: "100vh",
-        width: "100vw",
-        opacity: 0.5,
-      }}
-    />
-    <h1 style={{ textAlign: "center", fontFamily: "Ready Player One", color: COLORS.levelUpBlue }}>Level UP</h1>
-    <p style={{ textAlign: "center", maxWidth: 440, fontFamily: "azo-sans-web" }}>
-      This landing page looks great on all devices and is minimal in design. Add
-      what you want and deploy.
-    </p>
-    <Button>Get Early Access</Button>
-    <div style={{ margin: 60, width: `250px`, position: "relative" }}>
-      <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
-        <MockupContent />
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          width: "250px",
-          top: 0,
-        }}
-      >
-        <img
-          src={mockupFrame}
-          alt="outlines of shapes and confetti in the background "
-        />
-      </div>
+        maxHeight: 1020,
+        maxWidth: 1424,
+        width: `100%`,
+        height: `100%`,
+        opacity: 1,
+    }}/>
+    <div className="heroCont">
+        <h1 className="heroTitle" style={{color: COLORS.levelUpBlue}}>
+        Be bold<br/><span className="heroTitleBig" style={{color: COLORS.levelUpPurple}}>Act Now</span><br/>Learn <span className="heroTitleSmall">and</span> Adapt</h1>
+        <img src={HeroLine} className="heroDivide" alt="" />
+        <p style={{textAlign: "center", maxWidth: 480, fontFamily: "azo-sans-web", color: COLORS.darkGray}}>
+          <strong>LevelUP Code Works</strong> is a U.S. Air Force software development outfit in San Antonio, Texas.
+        </p>
+
     </div>
+
+    <div style={{textAlign: "center", margin: "auto"}}>
+        <DownPad />
+    </div>
+
   </div>
 )
 
