@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
       flexDirection: "column",
       padding: "4rem 1rem",
   }}>
-    <div className="heroBanner heroTrans" style={{
+    <div className="heroBanner" style={{
         backgroundImage: `url(${heroImage})`,
         position: "absolute",
         backgroundSize: "cover",
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
         <h1 className="heroTitle" style={{color: COLORS.levelUpBlue}}>
         Be bold<br/><span className="heroTitleBig" style={{color: COLORS.levelUpPurple}}>Act Now</span><br/>Learn <span className="heroTitleSmall">and</span> Adapt</h1>
         <img src={HeroLine} className="heroDivide" alt="" />
-        <p style={{textAlign: "center", maxWidth: 480, fontFamily: "azo-sans-web", color: COLORS.darkGray}}>
+        <p className="heroDes" style={{color: COLORS.darkGray}}>
           <strong>LevelUP Code Works</strong> is a U.S. Air Force software development outfit in San Antonio, Texas.
         </p>
 

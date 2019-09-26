@@ -13,7 +13,7 @@ import '../styles/courses.css'
 const Courses = () => (
   <div id="courses" className="courseMain">
     
-      <h1 className="coursesSect" style={{color: COLORS.levelUpPurple}}>Code <span style={{fontSize: "2rem", color: COLORS.levelUpBlue}}>for the</span> win</h1>
+      <h1 className="coursesSect" style={{color: COLORS.levelUpPurple}}>Code <span style={{fontSize: "2.5rem", color: COLORS.levelUpBlue}}>for the</span> win</h1>
 
    <content
       style={{

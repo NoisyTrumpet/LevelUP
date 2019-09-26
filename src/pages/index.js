@@ -52,6 +52,7 @@ const IndexPage = () => (
     <Federal />
     <Center />
     <CallToAction />
+    <Center />
     <Contact />
   </Layout>
 )

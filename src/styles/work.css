@@ -1,30 +1,58 @@
 .cta {
-	font-family: "azo-sans-web";
-  	padding: 5rem 1rem 3.5rem 1rem;
-  	margin: 5rem 0;
-  	text-align: center;
-  	background-color: #0714AC;
-  	transform: skewY(-.05rad);
+	display: inline-block;
+	margin: 12rem auto;
+	text-align: center;
+}
+
+.ctaMain {
+    font-family: "azo-sans-web";
+
+    transform: skewY(-.05rad);
+	background: #fff;
+	width: 100vw;
+	height: 1000px;
+	margin: auto;
+	overflow: hidden;
+	z-index: 5;
+}
+
+.ctaBack {
+	transform: skewY(.05rad);
+	background-image: url("../images/AFMag1.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	width: 110%;
+	height: 110%;
+	position: relative;
+	top: -45px;
 }
 
 .ctaCont {
-	transform: skewY(.05rad);
-	color: #fff;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(7,20,172,0.6);
 }
 
 .ctaCont h2 {
-	font-size: 3.5rem;
 	font-family: "Ready Player One";
+	color: #fff;
+	font-size: 3.5rem;
+	padding: 7.5rem 0 0 0;
+	font-weight: 400;
+	margin: auto;
 }
 
 .ctaCont h4 {
+	color: #fff;
 	font-size: 1.5rem;
-	font-family: "azo-sans-web";
+	padding: 2rem 0;
+	margin: auto;
 }
 
 .workCont {
 	height: 500px;
-	width: 35%;
+	width: 35vw;
 	background-color: #f0f0f0;
 	margin: auto;
 }
@@ -44,4 +72,36 @@
 }
 .workButton button:hover {
 	box-shadow: 0px 5px 20px -2px rgba(121, 211, 255, 0.75);
+	text-shadow: 1px 2px 2px #2e3a74;
 }
+
+
+/*@media (max-width: 900px){
+	.workButton button{
+		width: 60vw;
+		height: 80px;
+		font-size: 1.6rem;
+		margin: 3rem auto 1rem auto;
+	}
+
+	.workCont{
+		width: 85vw;
+	}
+
+	.ctaCont h2 {
+		font-size: 3.4rem;
+	}
+
+	.ctaCont h4 {
+		font-size: 1.3rem;
+		margin-bottom: 2.5rem;
+	}
+
+	.cta {
+  	transform: skewY(-.08rad);
+}
+
+.ctaCont {
+	transform: skewY(.08rad);
+}
+}*/

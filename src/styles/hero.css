@@ -1,7 +1,7 @@
 .heroDivide {
 	display: block;
 	width: 100%;
-	max-width: 500px;
+	max-width: 600px;
 	margin: auto;
 	padding: 0 0 .5rem 0;
 }
@@ -9,24 +9,32 @@
 .heroCont {
 	justify-content: center;
 	margin: 8rem 8rem;
-	width: 500px;
+	width: 600px;
 }
 
 .heroTitle {
-	text-align: center;
-	font-family: "azo-sans-web";
-	font-size: 50px;
+	text-align: left;
+	font-family: "Ready Player One";
+	font-size: 42px;
 	margin-bottom: 0;
 	font-weight: 100;
 }
 
 .heroTitleBig {
-	font-size: 78px;
+	font-size: 86px;
 	font-weight: 600;
 }
 
 .heroTitleSmall {
-	font-size: 30px;
+	font-size: 28px;
+}
+
+.heroDes {
+	text-align: center;
+	max-width: 525;
+	margin: auto;
+	font-family: "azo-sans-web";
+	font-size: 22px;
 }
 
 
@@ -61,7 +69,12 @@
 
 @media (max-width: 500px){
 	.heroCont {
-		margin: 10rem auto;
+		justify-content: flex-start;
+		margin: 9rem auto 10rem -.5rem;
 		width: 320px;
+	}
+
+	.heroDivide {
+		transform: scaleX(-1);
 	}
 }

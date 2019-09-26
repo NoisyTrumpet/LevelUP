@@ -6,8 +6,8 @@
 }
 
 .coursesSect {
-	font-size: 5rem;
-	font-family: "azo-sans-web";
+	font-size: 4.5rem;
+	font-family: "Ready Player One";
 	font-weight: 500;
 	word-spacing: 10px;
 	z-index: 10;
@@ -19,7 +19,8 @@
 }
 
 .skewCardCourse {
-	transform: skewX(-.15rad);
+	transform: skewX(0rad);
+	/*transform: skewX(-.15rad);*/
 	background: #fff;
 	box-shadow: 3px 3px 6px rgba(0,0,0,0.7);
 	width: 550px;
@@ -36,7 +37,8 @@
 }
 
 .skewCardBackCourse {
-	transform: skewX(-.15rad);
+	transform: skewX(0rad);
+	/*transform: skewX(-.15rad);*/
 	box-shadow: 3px 3px 6px rgba(0,0,0,0.7);
 	width: 550px;
 	height: 650px;
@@ -50,6 +52,7 @@
 
 .cardContCourse {
 	display: block;
+	font-family: "azo-sans-web";
 	transform: skewX(.15rad);
 	margin: 21rem auto 0 auto;
 	padding: 1rem;
@@ -118,4 +121,118 @@
 	position: relative;
 	top: -120px;
 	right: -250px;
+}
+
+
+
+@media (min-width: 1112px) and (max-width: 1245px){
+.courseMain {
+	padding: 0 0 5.5rem 0;
+	right: 6%;
+}
+
+.coursesSect {
+	margin-top: 8rem auto .5rem auto;
+	text-align: center;
+}
+
+.skewCardCourse {
+	transform: skewX(0rad);
+	width: 550px;
+	height: 650px;
+	margin: auto;
+	z-index: 5;
+	position: relative;
+	right: 50px;
+
+	background-image: url("../images/levelUP3.png");
+	background-position: 0 -25px;
+	background-repeat: no-repeat;
+	background-size: 560px;
+}
+
+.skewCardBackCourse {
+	transform: skewX(0rad);
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+	width: 550px;
+	height: 650px;
+	margin: auto;
+	z-index: 1;
+	position: relative;
+	top: 30px;
+	left: 50px;
+	text-align: center;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1111px){
+
+}
+
+@media (min-width: 1024px){
+	.mobBack {
+		display:none;
+	}
+}
+
+@media (max-width: 1023px){
+
+.coursesSect {
+	left: 0;
+	top: 0;
+	margin: 8rem auto 5rem auto;
+}
+.cardSect {
+	display: none;
+}
+
+.mobBackCourses {
+	display: flex;
+	width: 100%;
+	height: 680px;
+	background-image: url("../images/aboutCode.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+	padding: 1rem;
+}
+.mobContCourses {
+	background-color: #fff;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	transform: skewX(-.10rad);
+	vertical-align: middle;
+}
+.cardSubTitle{
+	font-family: "Ready Player One";
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: 500;
+	margin: auto;
+	padding: 3rem 5px 0 5px;
+	color: #2C65AC;
+	transform: skewX(.10rad);
+}
+.cardSubTitle img {
+	width: 100%;
+	max-width: 350px;
+	padding: 0 5px;
+}
+.mobContCourses p{
+	transform: skewX(.10rad);
+	font-family: "azo-sans-web";
+	position: relative;
+	max-width: 430px;
+	left: 10px;
+	margin: -15px auto auto auto;
+	font-size: 1.1rem;
+	font-weight: 400;
+	padding: 0 15px;
+}
+}
+
+@media (max-width: 750px){
+
 }

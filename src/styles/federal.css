@@ -1,6 +1,6 @@
 .federal {
 	display: inline-block;
-	margin: 8rem auto;
+	margin: 12rem auto;
 	text-align: center;
 
 	display: grid;
@@ -27,12 +27,12 @@
 
 .federalback {
 	transform: skewX(.15rad);
-	background-image: url("../images/aboutCode.png");
+	background-image: url("../images/LevelUP11.png");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center center;
 	background-size: 100%;
-	width: 115%;
-	height: 100%;
+	width: 111%;
+	height: 111%;
 	position: relative;
 	right: 50px;
 }
@@ -40,12 +40,13 @@
 .federalCont {
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.4);
 }
 
 .federalCont h3 {
+	font-family: "Ready Player One";
 	color: #fff;
-	text-shadow: 1px 2px 2px #f0f0f0;
+	/*text-shadow: 1px 2px 2px #f0f0f0;*/
 	font-size: 3.8rem;
 	padding: 2.5rem 0 2rem 0;
 	font-weight: 400;
@@ -53,7 +54,7 @@
 
 .federalCont p{
 	color: #fff;
-	font-size: 1.05rem;
+	font-size: 1.2rem;
 }
 
 .fedButton button {
@@ -78,4 +79,30 @@
 	font-weight: bold;
 	color: #fff;
 	margin: auto;
+}
+
+
+
+@media (max-width: 900px){
+	.federalMain{
+		width: 75vw;
+	}
+
+	.fedButton button{
+		position: relative;
+		width: 50vw;
+		right: 20px;
+	}
+
+	.federalback {
+		background-size: 200%;
+		width: 130%;
+		right: 40px;
+	}
+
+	.federalCont h3, .federalCont p {
+		position: relative;
+		max-width: 60vw;
+		left: 80px;
+	}	
 }

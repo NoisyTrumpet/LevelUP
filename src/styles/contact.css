@@ -27,9 +27,16 @@
 
 .contactInfo ul, .contactLocation ul {
 	list-style: none;
+	text-align: center;
 }
 
 .contactLine {
 	width: 35%;
 	margin: auto;
+}
+
+.emailIcon{
+	width: 08%;
+	margin-right: 2.5rem;
+	vertical-align: middle;
 }
