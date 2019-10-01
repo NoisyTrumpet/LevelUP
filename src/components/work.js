@@ -9,6 +9,7 @@ const CallToAction = () => (
 
     <div className="ctaCont">
 
+      <div className="ctaWork">
         <h2>Get in the game</h2>
         <h4>Take your career to the next level.</h4>
 
@@ -17,6 +18,7 @@ const CallToAction = () => (
         <div className="workButton">
           <button>Apply Now</button>
         </div>
+      </div>
 
     </div>
 

@@ -20,10 +20,43 @@
     grid-template-columns: repeat(auto-fit, minmax(50px, 100px));
 }
 
-.footSocial img {
-	padding: 0 1rem;
-    max-width: 75px;
+.footSocial {
+    justify-content: space-around;
 }
+.footSocial a {
+    margin: auto;
+}
+.socialIcon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+.faceBook{
+    background-image: url("../images/icons/facebook.svg");
+}
+.faceBook:hover, .faceBook:focus{
+    background-image: url("../images/icons/facebookHover.svg");
+}
+.instaGram{
+    background-image: url("../images/icons/instagram.svg");
+}
+.instaGram:hover, .instaGram:focus{
+    background-image: url("../images/icons/instagramHover.svg");
+}
+.twitTer{
+    background-image: url("../images/icons/twitter.svg");
+}
+.twitTer:hover, .twitTer:focus{
+    background-image: url("../images/icons/twitterHover.svg");
+}
+.linkeDin{
+    background-image: url("../images/icons/linkedin.svg");
+}
+.linkeDin:hover, .linkeDin:focus{
+    background-image: url("../images/icons/linkedinHover.svg");
+}
+
 
 .footerLinks {
     margin: 5rem auto 0 auto;
@@ -70,3 +103,5 @@
 .footerLinks a:active{
     color: #70f700;
 }
+
+

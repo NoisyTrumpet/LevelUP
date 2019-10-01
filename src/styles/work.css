@@ -1,6 +1,6 @@
 .cta {
 	display: inline-block;
-	margin: 12rem auto;
+	margin: 12rem auto 12rem -18px;
 	text-align: center;
 }
 
@@ -32,6 +32,11 @@
 	width: 100%;
 	height: 100%;
 	background-color: rgba(7,20,172,0.6);
+}
+
+.ctaWork{
+	position: relative;
+	left:-4%;
 }
 
 .ctaCont h2 {
@@ -75,33 +80,46 @@
 	text-shadow: 1px 2px 2px #2e3a74;
 }
 
-
-/*@media (max-width: 900px){
-	.workButton button{
-		width: 60vw;
-		height: 80px;
-		font-size: 1.6rem;
-		margin: 3rem auto 1rem auto;
-	}
-
-	.workCont{
-		width: 85vw;
-	}
-
-	.ctaCont h2 {
-		font-size: 3.4rem;
-	}
-
-	.ctaCont h4 {
-		font-size: 1.3rem;
-		margin-bottom: 2.5rem;
-	}
-
-	.cta {
-  	transform: skewY(-.08rad);
+@media (min-width: 1113px) and (max-width: 1366px){
+.ctaBack {
+	background-size: 120%;
+}
+.workCont {
+	width: 50vw;
+}
 }
 
-.ctaCont {
-	transform: skewY(.08rad);
+@media (min-width: 901px) and (max-width: 1112px){
+.ctaBack {
+	background-size: 120%;
 }
-}*/
+.workCont {
+	width: 55vw;
+}
+}
+
+@media (min-width: 751px) and (max-width: 900px){
+.ctaBack {
+	background-size: 170%;
+}
+.workCont {
+	width: 75vw;
+}
+.workButton button {
+	width: 350px;
+}
+}
+
+@media (max-width: 750px){
+.ctaBack {
+	background-size: 310%;
+}
+.workCont {
+	width: 85vw;
+}
+.workButton button {
+
+	width: 320px;
+
+}
+}

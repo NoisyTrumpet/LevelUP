@@ -3,6 +3,7 @@
 	margin: auto;
 	position: relative;
 	right: 5%;
+
 }
 
 .aboutSect {
@@ -148,13 +149,13 @@
 	left: 15%;
 }
 .skewCard {
-	transform: skewX(0rad);
-	/*transform: skewX(-.15rad);*/
+	/*transform: skewX(0rad);*/
+	transform: skewX(-.15rad);
 	width: 520px;
 }
 .skewCardBack {
-	transform: skewX(0rad);
-	/*transform: skewX(-.15rad);*/
+	/*transform: skewX(0rad);*/
+	transform: skewX(-.15rad);
 	width: 520px;
 	left: -30px;
 	background-size: 205%;
@@ -312,6 +313,6 @@
 	margin: 3rem auto 6rem auto;
 }
 .cardSubTitle{
-	font-size: 2.5rem;
+	font-size: 2.7rem !important;
 }
 }

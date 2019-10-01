@@ -30,7 +30,8 @@ const About = () => (
         alignItems: "center",
         justifyContent: "center",
         gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
-        left: 0
+        left: 0,
+        overflow: "visible"
       }}
     >
 

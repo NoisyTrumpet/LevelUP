@@ -21,13 +21,15 @@
 .contactCont h3 {
 	color: #2C65AC;
 	text-shadow: 1px 2px 2px #B0B8BA;
-	font-size: 1.7rem;
+	font-size: 2rem;
 	font-family: "azo-sans-web";
 }
 
-.contactInfo ul, .contactLocation ul {
+.contactInfo ul{
 	list-style: none;
 	text-align: center;
+	position: relative;
+	left: -3%;
 }
 
 .contactLine {
@@ -36,7 +38,33 @@
 }
 
 .emailIcon{
-	width: 08%;
+	width: 48px;
 	margin-right: 2.5rem;
 	vertical-align: middle;
+}
+
+
+
+@media (min-width: 1113px) and (max-width: 1366px){
+.contactLine {
+	width: 40%;
+}
+}
+
+@media (min-width: 901px) and (max-width: 1112px){
+.contactLine {
+	width: 50%;
+}
+}
+
+@media (min-width: 751px) and (max-width: 900px){
+.contactLine {
+	width: 60%;
+}
+}
+
+@media (max-width: 750px){
+.contactLine {
+	width: 80%;
+}
 }
