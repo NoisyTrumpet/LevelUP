@@ -57,7 +57,7 @@
     z-index: -4;
 }
 .dwnPad{
-
+	position: absolute;
 	bottom: 18%;
 	left: 48%;
 	z-index: -2;

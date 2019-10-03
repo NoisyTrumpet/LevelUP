@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
         opacity: 1,
     }}/>
     <div className="heroCont">
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateIn="fadeInUp">
           <h2 className="heroTitle" style={{color: COLORS.levelUpBlue}}>
           Be bold<br/><span className="heroTitleBig" style={{color: COLORS.levelUpPurple}}>Act Now</span><br/>Learn <span className="heroTitleSmall">and</span> Adapt</h2>
         </ScrollAnimation>
