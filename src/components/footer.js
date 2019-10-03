@@ -2,42 +2,44 @@ import React from "react"
 import PropTypes from "prop-types"
 
 // import { COLORS } from "../styles/constants"
-import Facebook from "../images/icons/facebook.svg"
-import Instagram from "../images/icons/instagram.svg"
-import Twitter from "../images/icons/twitter.svg"
-import Linkedin from "../images/icons/linkedin.svg"
 import Logo from "../images/LevelUp-Logo.png"
 
 import "../styles/footer.css"
 
 const Footer = ({ siteTitle }) => (
   <footer className="footer">
-    <div className="footMain">
-      <img src={Logo} alt="" />
+    <div className="directUP">
+      <span className="paddImg padUP"></span>
     </div>
-    <div className="footSocial">
-      <img src={Facebook} alt="" />
-      <img src={Instagram} alt="" />
-      <img src={Twitter} alt="" />
-      <img src={Linkedin} alt="" />
+
+    <div className="footMain">
+      <img src={Logo} alt="LevelUP Logo" />
+    </div>
+    <div style={{maxWidth: 500, margin: "auto"}}>
+      <div className="footSocial">
+        <a href="https://www.facebook.com/LevelUPCodeWorks"><span className="socialIcon faceBook"></span></a>
+        <a href="https://www.instagram.com/levelup_cw/"><span className="socialIcon instaGram"></span></a>
+        <a href="https://twitter.com/LevelUP_CW"><span className="socialIcon twitTer"></span></a>
+        <a href="https://www.linkedin.com/company/23748736"><span className="socialIcon linkeDin"></span></a>
+      </div>
     </div>
     <div className="footerLinks">
       <ul className="footerLinks1">
-        <li><a href="/">RSS</a></li>
-        <li><a href="/">IG</a></li>
-        <li><a href="/">FOIA</a></li>
-        <li><a href="/">SAPR</a></li>
-        <li><a href="/">USA.gov</a></li>
-        <li><a href="/">Accessibility</a></li>
-        <li><a href="/">AF Sites</a></li>
+        <li><a href="https://www.af.mil/RSS/">RSS</a></li>
+        <li><a href="https://www.afinspectorgeneral.af.mil">IG</a></li>
+        <li><a href="https://www.foia.af.mil">FOIA</a></li>
+        <li><a href="https://www.resilience.af.mil/SAPR/">SAPR</a></li>
+        <li><a href="https://www.usa.gov">USA.gov</a></li>
+        <li><a href="https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx">Accessibility</a></li>
+        <li><a href="https://www.af.mil/AF-Sites/">AF Sites</a></li>
       </ul>
       <ul className="footerLinks2">
         <li><a href="/">Link Disclaimer</a></li>
-        <li><a href="/">AF Executive Fleet</a></li>
-        <li><a href="/">No FEAR Act</a></li>
-        <li><a href="/">Strategic APR</a></li>
-        <li><a href="/">Suicide Prevention</a></li>
-        <li><a href="/">EEO</a></li>
+        <li><a href="https://www.af.mil/Portals/1/documents/AF_Executive_Fleet.pdf">AF Executive Fleet</a></li>
+        <li><a href="https://prhome.defense.gov/NoFear/">No FEAR Act</a></li>
+        <li><a href="https://www.archives.gov/about/plans-reports/performance-accountability">Strategic APR</a></li>
+        <li><a href="https://www.resilience.af.mil">Suicide Prevention</a></li>
+        <li><a href="https://www.af.mil/Equal-Opportunity/">EEO</a></li>
       </ul>
     </div>
   </footer>
