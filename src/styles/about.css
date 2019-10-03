@@ -125,6 +125,7 @@
 }
 
 .botChan1 {
+	line-height: 7rem;
 	font-size: 5.5rem;
 	font-family: "Ready Player One";
 }
@@ -138,9 +139,14 @@
 
 
 
+@media (min-width: 1246px) and (max-width: 1366px){
+.aboutSect {
+	left: 17%;
+	top: 152px;
+}
+}
 
-
-@media (min-width: 1112px) and (max-width: 1245px){
+@media (min-width: 1113px) and (max-width: 1245px){
 .aboutSect {
 	left: 22%;
 	top: 151px;
@@ -186,13 +192,13 @@
 }
 }
 
-@media (min-width: 1024px) and (max-width: 1111px){
+@media (min-width: 1024px) and (max-width: 1112px){
 .aboutSect {
 	left: 20%;
 	top: 151px;
 }
 .cardSect {
-	left: 0;
+	left: 17%;
 }
 .skewCard {
 	transform: skewX(-.10rad);
@@ -301,6 +307,9 @@
 .bottomSect h2 {
 	font-size: 1.6rem;
 }
+.botChan1 {
+	line-height: 7rem;
+}
 
 
 .sideLine{
@@ -308,11 +317,56 @@
 }
 }
 
-@media (max-width: 750px){
+@media (min-width: 376px) and (max-width: 750px){
 .aboutSect {
-	margin: 3rem auto 6rem auto;
+	margin: 10rem auto 6rem auto;
 }
 .cardSubTitle{
 	font-size: 2.7rem !important;
+}
+}
+
+@media (max-width: 375px){
+.aboutSect {
+	font-size: 4rem;
+	margin: 8rem auto 6rem auto;
+}
+.mobCont {
+	width: 90%;
+	height: 95%;
+	transform: skewX(-.05rad);
+}
+.cardSubTitle{
+	font-size: 2.5rem !important;
+	transform: skewX(.05rad);
+}
+.mobCont p{
+	transform: skewX(.05rad);
+	font-family: "azo-sans-web";
+	position: relative;
+	max-width: 430px;
+	left: 5px;
+	margin: -15px auto auto auto;
+	font-size: 1.1rem;
+	font-weight: 400;
+	padding: 0 15px;
+}
+.bottomSect {
+	margin: 8rem auto;
+	left: 0;
+}
+
+.bottomSect h2 {
+	font-size: 1.2rem;
+}
+
+.botChan1 {
+	line-height: 6.5rem;
+	font-size: 4.5rem;
+}
+
+.bottomLine {
+	width: 100%;
+	max-width: 280px;
 }
 }

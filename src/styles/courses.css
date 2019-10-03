@@ -298,7 +298,7 @@
 }
 }
 
-@media (max-width: 750px){
+@media (min-width: 376px) and (max-width: 750px){
 .mobContCourses {
 	background-color: #fff;
 	width: 83%;
@@ -323,5 +323,41 @@
 .coursesDivide {
 	max-width: 300px;
 	margin: -1.5rem auto 2rem auto;
+}
+}
+
+@media (max-width: 375px){
+	.mobContCourses {
+	background-color: #fff;
+	width: 83%;
+	margin: auto auto 1rem auto;
+	transform: skewX(-.05rad);
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+}
+.mobContCourses p{
+	transform: skewX(.05rad);
+	font-family: "azo-sans-web";
+	position: relative;
+	max-width: 430px;
+	left: 10px;
+	margin: 3rem auto 3rem auto;
+	font-size: 1.2rem;
+	font-weight: 300;
+	padding: 0;
+}
+.mobSectCourses ul{
+	margin: auto;
+}
+.courseItem img {
+	max-height: 55px;
+}
+.courseItem p{
+	margin: auto;
+	width: 150px;
+	font-size: 1.5rem;
+}
+.coursesDivide {
+	max-width: 200px;
+	margin: -1.5rem auto 2rem 1rem;
 }
 }

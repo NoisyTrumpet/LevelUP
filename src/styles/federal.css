@@ -73,7 +73,7 @@
 }
 
 
-@media (max-width: 1024px){
+@media (min-width: 751px) and (max-width: 1024px){
 .federalMain{
 	transform: skewX(-.10rad);
 	width: 80vw;
@@ -100,7 +100,7 @@
 }
 }
 
-@media (max-width: 750px){
+@media (min-width: 376px) and (max-width: 750px){
 .federalMain{
 	transform: skewX(-.10rad);
 	width: 80vw;
@@ -124,5 +124,36 @@
 }
 .federalCont p{
 	padding: 1rem 3.5rem;
+}
+}
+
+@media (max-width: 375px){
+.federalMain{
+	transform: skewX(-.05rad);
+	width: 90%;
+}
+.fedButton button{
+	position: relative;
+	width: 55vw;
+	right: 20px;
+}
+.federalback {
+	transform: skewX(.05rad);
+	background-size: 250%;
+	width: 130%;
+	right: 30px;
+}
+.federalCont h3 {
+	font-size: 2.8rem;
+	padding: 3.5rem 0 2rem 0;
+	margin: auto;
+	font-weight: 400;
+}
+.federalCont p{
+	padding: 1rem 3.5rem;
+}
+.fedButton button {
+	transform: skewX(-.15rad);
+	margin: .5rem auto 0 1rem;
 }
 }

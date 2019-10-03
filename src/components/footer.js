@@ -8,6 +8,10 @@ import "../styles/footer.css"
 
 const Footer = ({ siteTitle }) => (
   <footer className="footer">
+    <div className="directUP">
+      <span className="paddImg padUP"></span>
+    </div>
+
     <div className="footMain">
       <img src={Logo} alt="LevelUP Logo" />
     </div>

@@ -1,19 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { COLORS } from "../styles/constants"
-import DownPad from "../components/downPad"
 import heroImage from "../images/heroBack.png"
 import HeroLine from "../images/heroLine.png"
 
 import '../styles/hero.css'
 
 const Header = ({ siteTitle }) => (
-  <div style={{
-      display: "flex",
-      alignItems: "flex-start",
-      flexDirection: "column",
-      padding: "4rem 1rem",
-  }}>
+  <div className="heroMain">
     <div className="heroBanner" style={{
         backgroundImage: `url(${heroImage})`,
         position: "absolute",
@@ -37,8 +31,10 @@ const Header = ({ siteTitle }) => (
 
     </div>
 
-    <div style={{textAlign: "center", margin: "auto"}}>
-        <DownPad />
+    <div className="gradient">
+      <div className="dwnPad">
+      <span className="padImg padDwn"></span>
+        </div>
     </div>
 
   </div>

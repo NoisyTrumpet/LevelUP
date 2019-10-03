@@ -41,18 +41,11 @@ const IndexPage = () => (
 
     <SEO />
     <Navbar />
-    {/*<SideDrawer />
-    <Backdrop />*/}
     <Hero />
-    <Center />
     <About />
-    <Center />
     <Courses />
-    <Center />
     <Federal />
-    <Center />
     <CallToAction />
-    <Center />
     <Contact />
   </Layout>
 )
