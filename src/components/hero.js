@@ -22,12 +22,12 @@ const Header = ({ siteTitle }) => (
         opacity: 1,
     }}/>
     <div className="heroCont">
-        <h1 className="heroTitle" style={{color: COLORS.levelUpBlue}}>
-        Be bold<br/><span className="heroTitleBig" style={{color: COLORS.levelUpPurple}}>Act Now</span><br/>Learn <span className="heroTitleSmall">and</span> Adapt</h1>
+        <h2 className="heroTitle" style={{color: COLORS.levelUpBlue}}>
+        Be bold<br/><span className="heroTitleBig" style={{color: COLORS.levelUpPurple}}>Act Now</span><br/>Learn <span className="heroTitleSmall">and</span> Adapt</h2>
         <img src={HeroLine} className="heroDivide" alt="" />
-        <p className="heroDes" style={{color: COLORS.darkGray}}>
+        <h1 className="heroDes" style={{color: COLORS.darkGray}}>
           <strong>LevelUP Code Works</strong> is a U.S. Air Force software development outfit in San Antonio, Texas.
-        </p>
+        </h1>
 
     </div>
 

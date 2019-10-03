@@ -11,7 +11,7 @@ import Navbar from "../components/navbar"
 import Contact from "../components/contact"
 /*import SideDrawer from "../components/side-drawer"
 import Backdrop from "../components/backdrop"*/
-import Center from "../components/center"
+// import Center from "../components/center"
 
 
 const IndexPage = () => (
