@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { COLORS } from "../styles/constants"
 import heroImage from "../images/heroBack.png"
 import HeroLine from "../images/heroLine.png"
+import ScrollAnimation from "react-animate-on-scroll"
 
 import '../styles/hero.css'
 
@@ -22,8 +23,10 @@ const Header = ({ siteTitle }) => (
         opacity: 1,
     }}/>
     <div className="heroCont">
-        <h2 className="heroTitle" style={{color: COLORS.levelUpBlue}}>
-        Be bold<br/><span className="heroTitleBig" style={{color: COLORS.levelUpPurple}}>Act Now</span><br/>Learn <span className="heroTitleSmall">and</span> Adapt</h2>
+        <ScrollAnimation animateIn="fadeIn">
+          <h2 className="heroTitle" style={{color: COLORS.levelUpBlue}}>
+          Be bold<br/><span className="heroTitleBig" style={{color: COLORS.levelUpPurple}}>Act Now</span><br/>Learn <span className="heroTitleSmall">and</span> Adapt</h2>
+        </ScrollAnimation>
         <img src={HeroLine} className="heroDivide" alt="" />
         <h1 className="heroDes" style={{color: COLORS.darkGray}}>
           <strong>LevelUP Code Works</strong> is a U.S. Air Force software development outfit in San Antonio, Texas.
