@@ -70,10 +70,10 @@
     background-size: cover;
 }
 .padUP{
-    background-image: url("../images/padUP.svg");
+    background-image: url("/images/padUP.svg");
 }
 .padUP:hover, .padUP:focus{
-    background-image: url("../images/padDownHover.svg");
+    background-image: url("/images/padDownHover.svg");
 }
 
 
