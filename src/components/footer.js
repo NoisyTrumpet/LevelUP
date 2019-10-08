@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import $ from "jquery"
 
 // import { COLORS } from "../styles/constants"
 import Logo from "../images/LevelUp-Logo.png"
@@ -7,9 +8,20 @@ import Logo from "../images/LevelUp-Logo.png"
 import "../styles/footer.css"
 
 const Footer = ({ siteTitle }) => (
-  <footer className="footer">
+
+  $(document).ready(function () {
+    $('a[rel="relativeanchor"]').click(function () {
+      $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+      }, 500);
+      return false;
+    });
+  }),
+
+  <footer id="footer" className="footer">
     <div className="directUP">
-      <span className="paddImg padUP"></span>
+      <a href="#top" rel="relativeanchor"><span className="paddImg padUP"></span></a>
+      {/* <a href="#top" className="paddingImg padUP" id="bottom"></a> */}
     </div>
 
     <div className="footMain">

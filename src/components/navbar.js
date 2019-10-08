@@ -4,6 +4,7 @@ import $ from "jquery"
 // import DrawerToggle from "./drawer-toggle"
 import NavLine from "../images/navLine.png"
 import Logo from "../images/LevelUp-Logo.png"
+import { Link } from "gatsby"
 
 // import * as Scroll from 'react-scroll';
 
@@ -26,19 +27,26 @@ const Navbar = () => (
       } else if (scrollTop < 100) {
         $('.toolbar').removeClass('scrolled');
       }
-
     });
-
   }),
 
+  $(document).ready(function () {
+    $('a[rel="relativeanchor"]').click(function () {
+      $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+      }, 500);
+      return false;
+    });
+  }),
+ 
   <header className="toolbar">
     <nav className="toolbar_nav">
 
-      <div id="MobileMenu" className="mNav" tabindex="0">
-        <div className="mNav-dropdown">
-        <a href="/">About</a>
-        <a href="/">Collaborate</a>
-        <a href="/">Contact</a>
+      <div id="MobileMenu" className="mNav" tabIndex="0">
+        <div className="mNav-dropdown" id="top">
+          <a id="toAbout" rel="relativeanchor" href="#targetAbout">About</a>
+          <a id="toCollaborate" rel="relativeanchor" href="#targetCollaborate">Collaborate</a>
+          <a id="toContact" rel="relativeanchor" href="#targetContact">Contact</a>
         </div>
       </div>
 
@@ -47,9 +55,9 @@ const Navbar = () => (
       
       <div id="DesktopMenu" className="toolbar_nav_items">
         <ul>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Collaborate</a></li>
-          <li><a href="/">Contact</a></li>
+          <li><a id="toAbout" rel="relativeanchor" href="#targetAbout">About</a></li>
+          <li><a id="toCollaborate" rel="relativeanchor" href="#targetCollaborate">Collaborate</a></li>
+          <li><a id="toContact" rel="relativeanchor" href="#targetContact">Contact</a></li>
         </ul>
       </div>
 

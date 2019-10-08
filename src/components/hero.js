@@ -4,10 +4,21 @@ import { COLORS } from "../styles/constants"
 import heroImage from "../images/heroBack.png"
 import HeroLine from "../images/heroLine.png"
 import ScrollAnimation from "react-animate-on-scroll"
+import $ from "jquery"
 
 import '../styles/hero.css'
 
 const Header = ({ siteTitle }) => (
+
+  $(document).ready(function () {
+    $('a[rel="relativeanchor"]').click(function () {
+      $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+      }, 500);
+      return false;
+    });
+  }),
+
   <div className="heroMain">
     <div className="heroBanner" style={{
         backgroundImage: `url(${heroImage})`,
@@ -35,9 +46,10 @@ const Header = ({ siteTitle }) => (
     </div>
 
     <div className="gradient">
-      <div className="dwnPad">
-      <span className="padImg padDwn"></span>
-        </div>
+      <div id="downArrow" className="dwnPad">
+        <a href="#footer" rel="relativeanchor"><span className="padImg padDwn"></span></a>
+        {/* <a href="#footer" rel="relativeanchor" className="padImg padDwn"></a> */}
+      </div>
     </div>
 
   </div>

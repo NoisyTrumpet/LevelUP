@@ -6,8 +6,8 @@ import Email from "../images/icons/emailIcon.svg"
 import "../styles/contact.css"
 
 const Contact = () => (
-<div className="contact">
-  <div >
+  <div id="targetContact" className="contact">
+  <div>
 
     <div className="contactInfo contactCont">
       <h3>Get in Touch</h3>

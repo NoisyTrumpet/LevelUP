@@ -7,7 +7,7 @@ import BodyLine from "../images/bodyLine.png"
 import '../styles/about.css'
 
 const About = () => (
-<div id="about" className="aboutMain">
+<div id="targetAbout" className="aboutMain">
     
         <h1 className="aboutSect">About</h1>
 

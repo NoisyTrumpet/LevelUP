@@ -3,7 +3,7 @@ import React from "react"
 import "../styles/federal.css"
 
 const Federal = () => (
-<div className="federal">
+<div id="targetCollaborate" className="federal">
   <div className="federalMain">
   <div className="federalback">
 

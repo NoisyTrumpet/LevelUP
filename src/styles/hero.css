@@ -44,9 +44,9 @@
 	font-size: 22px;
 }
 
-.gradient{
+.gradient {
 	position: absolute;
-	bottom: 4%;
+	bottom: 0%;
 	left: 0%;
 	height: 450px;
 	width: 100%;
@@ -56,34 +56,37 @@
     );
     z-index: -4;
 }
-.dwnPad{
+
+.dwnPad {
 	position: absolute;
-	bottom: 18%;
+	bottom: 95%;
 	left: 48%;
-	z-index: -2;
+	z-index: 5;
 }
 
-.padImg{
+.padImg {
 	display: inline-block;
 	width: 100px;
 	height: 100px;
 	background-size: cover;
 }
-.padDwn{
+
+.padDwn {
 	background-image: url("../images/padDown.svg");
 }
-.padDwn:hover, .padDwn:focus{
+
+.padDwn:hover, .padDwn:focus {
 	background-image: url("../images/padDownHover.svg");
 }
-
 
 @media (min-width: 901px) and (max-width: 1200px){
 	.heroCont {
 		margin: 5rem 4rem; 
 	}
-	.gradient{
+
+	.gradient {
 		position: absolute;
-		bottom: 4%;
+		bottom: 0%;
 		left: 0%;
 		height: 450px;
 		width: 100%;
@@ -93,10 +96,11 @@
     	);
     	z-index: -4;
 	}
-	.dwnPad{
+
+	.dwnPad {
 		position: absolute;
-		bottom: 18%;
-		left: 47%;
+		bottom: 140%;
+		left: 50%;
 	}
 }
 
@@ -105,9 +109,11 @@
 		background-position: top;
 		margin-top: 80px;
 	}
+
 	.heroCont {
 		margin: 8rem 3rem; 
 	}
+
 	.gradient{
 		position: absolute;
 		bottom: -3%;
@@ -120,10 +126,11 @@
     	);
     	z-index: -4;
 	}
+
 	.dwnPad{
 		position: absolute;
-		bottom: 30%;
-		left: 46%;
+		bottom: 75%;
+		left: 42%;
 	}
 }
 
@@ -133,32 +140,39 @@
     	padding: 4rem 0;
     	margin: 0;
 	}
+
 	.heroBanner {
 		background-position: top;
 		margin-top: 80px;
 	}
+
 	.heroCont {
 		justify-content: flex-start;
 		margin: 9rem auto 2rem auto;
 		width: 100%;
 	}
+
 	.heroTitle {
 		font-size: 30px;
 	}
+
 	.heroTitleBig {
 		font-size: 46px;
 	}
+
 	.heroDivide {
 		transform: scaleX(-1);
 		max-width: 320px;
 		margin-left: -.7rem;
 	}
+
 	.heroDes {
 		text-align: left;
 		max-width: 320px;
 		font-size: 18px;
 		margin-left: -.1rem;
 	}
+
 	.gradient{
 		position: absolute;
 		bottom: -9%;
@@ -171,11 +185,13 @@
     	);
     	z-index: -4;
 	}
+
 	.dwnPad{
 		position: absolute;
-		bottom: 28%;
-		left: 42%;
+		bottom: 100%;
+		left: 38%;
 	}
+
 	.padImg{
 		width: 80px;
 		height: 80px;
