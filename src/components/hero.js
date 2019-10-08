@@ -7,6 +7,7 @@ import ScrollAnimation from "react-animate-on-scroll"
 
 import '../styles/hero.css'
 
+
 const Header = ({ siteTitle }) => (
   <div className="heroMain">
     <div className="heroBanner" style={{
