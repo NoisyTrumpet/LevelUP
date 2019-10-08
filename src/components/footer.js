@@ -10,6 +10,7 @@ const Footer = ({ siteTitle }) => (
   <footer className="footer">
     <div className="directUP">
       <span className="paddImg padUP"></span>
+
     </div>
 
     <div className="footMain">
@@ -44,6 +45,7 @@ const Footer = ({ siteTitle }) => (
     </div>
   </footer>
 )
+
 
 Footer.propTypes = {
   siteTitle: PropTypes.string,
