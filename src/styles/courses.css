@@ -18,7 +18,7 @@
 	left: 4%;
 }
 
-.skewCardCourse {
+.skewCardCourse1 {
 	/*transform: skewX(0rad);*/
 	transform: skewX(-.15rad);
 	background: #fff;
@@ -31,6 +31,40 @@
 	right: 50px;
 
 	background-image: url("../images/levelUP3.png");
+	background-position: 0 -25px;
+	background-repeat: no-repeat;
+	background-size: 560px;
+}
+.skewCardCourse2 {
+	/*transform: skewX(0rad);*/
+	transform: skewX(-.15rad);
+	background: #fff;
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+	width: 550px;
+	height: 650px;
+	margin: auto;
+	z-index: 5;
+	position: relative;
+	right: 50px;
+
+	background-image: url("../images/LevelUP11.png");
+	background-position: 0 -25px;
+	background-repeat: no-repeat;
+	background-size: 560px;
+}
+.skewCardCourse3 {
+	/*transform: skewX(0rad);*/
+	transform: skewX(-.15rad);
+	background: #fff;
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+	width: 550px;
+	height: 650px;
+	margin: auto;
+	z-index: 5;
+	position: relative;
+	right: 50px;
+
+	background-image: url("../images/LevelUP17.png");
 	background-position: 0 -25px;
 	background-repeat: no-repeat;
 	background-size: 560px;
@@ -54,18 +88,24 @@
 	display: block;
 	font-family: "azo-sans-web";
 	transform: skewX(.15rad);
-	margin: 21rem auto 0 auto;
+	margin: auto;
 	padding: 1rem;
 	max-width: 500px;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	text-align: left;
 	line-height: 1.3;
 	color: #5c6061;
 }
 
+.skewCardCourse2 .cardContCourse {
+	font-size: 1.2rem;
+}
+
 
 .cardContCourse p{
-	left: -15px;
+	position: relative;
+	left: -50px;
+	top: 370px;
 	margin: auto;
 }
 
@@ -81,7 +121,7 @@
 	text-align: left;
 	align-items: center;
     justify-content: space-between;
-    color: #5c6061;
+    color: #000;
     margin-bottom: 2rem;
 }
 
@@ -90,14 +130,14 @@
 	max-width: 330px;
 	width: 100%;
 	height: auto;
-	margin: -2.5rem auto 3rem 1rem;
+	margin: -2.5rem auto 2rem 1rem;
 }
 
 .courseItem img {
-	max-height: 100px;
+	max-height: 120px;
 	width: auto;
 	height: 100%;
-	margin: auto 2rem;
+	margin: auto 2.5rem;
 }
 
 .courseItem p{
@@ -113,15 +153,18 @@
 }
 
 
+.courses button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	opacity: .6;
+}
 
-/*.sideLineCourse {
-	height: 100%;
-	max-height: 200px;
-	opacity: 0;
-	position: relative;
-	top: -120px;
-	right: -250px;
-}*/
+.courses button:hover{
+	background-color: #f0f0f0;
+	opacity: 1;
+}
+
 
 
 
@@ -139,7 +182,7 @@
 	left: -1%;
 	overflow: visible;
 }
-.skewCardCourse {
+.skewCardCourse1 {
 	transform: skewX(-.10rad);
 	width: 500px;
 	height: 650px;
@@ -147,6 +190,29 @@
 
 	background-image: url("../images/levelUP3.png");
 	background-position: 0 -25px;
+	background-repeat: no-repeat;
+	background-size: 500px;
+}
+.skewCardCourse2 {
+	transform: skewX(-.10rad);
+	width: 500px;
+	height: 650px;
+	right: 70px;
+
+	background-image: url("../images/LevelUP11.png");
+	background-position: 0 -25px;
+	background-repeat: no-repeat;
+	background-size: 500px;
+}
+.skewCardCourse3 {
+	transform: skewX(-.10rad);
+	width: 500px;
+	height: 650px;
+	right: 70px;
+
+	background-image: url("../images/LevelUP17.png");
+	background-position: 0 -25px;
+	background-repeat: no-repeat;
 	background-size: 500px;
 }
 .skewCardBackCourse {
@@ -161,7 +227,13 @@
 }
 .cardContCourse {
 	transform: skewX(.10rad);
-	margin: 19rem auto 0 auto;
+	margin: auto;
+}
+.cardContCourse p{
+	position: relative;
+	left: -40px;
+	top: 350px;
+	margin: auto;
 }
 .courseItem {
 	transform: skewX(.10rad);
@@ -174,7 +246,7 @@
 	margin: -2.5rem auto 3rem 1rem;
 }
 .courseItem img {
-	max-height: 90px;
+	max-height: 100px;
 	width: auto;
 }
 .courseSpacer {
@@ -201,6 +273,39 @@
 	background-position: 0 -25px;
 	background-size: 450px;
 }
+.skewCardCourse1 {
+	transform: skewX(-.10rad);
+	width: 450px;
+	height: 600px;
+	right: 40px;
+
+	background-image: url("../images/levelUP3.png");
+	background-position: 0 -25px;
+	background-repeat: no-repeat;
+	background-size: 450px;
+}
+.skewCardCourse2 {
+	transform: skewX(-.10rad);
+	width: 450px;
+	height: 600px;
+	right: 40px;
+
+	background-image: url("../images/LevelUP11.png");
+	background-position: 0 -25px;
+	background-repeat: no-repeat;
+	background-size: 450px;
+}
+.skewCardCourse3 {
+	transform: skewX(-.10rad);
+	width: 450px;
+	height: 600px;
+	right: 40px;
+
+	background-image: url("../images/LevelUP17.png");
+	background-position: 0 -25px;
+	background-repeat: no-repeat;
+	background-size: 450px;
+}
 .skewCardBackCourse {
 	transform: skewX(-.10rad);
 	width: 450px;
@@ -213,7 +318,14 @@
 }
 .cardContCourse {
 	transform: skewX(.10rad);
-	margin: 17rem auto 0 auto;
+	margin: auto;
+	font-size: 1.5rem;
+}
+.cardContCourse p{
+	position: relative;
+	left: -25px;
+	top: 290px;
+	margin: auto;
 }
 .courseItem {
 	transform: skewX(.10rad);
@@ -226,7 +338,7 @@
 	margin: -2.5rem auto 3rem 1rem;
 }
 .courseItem img {
-	max-height: 80px;
+	max-height: 100px;
 	width: auto;
 }
 .courseSpacer {
@@ -269,13 +381,13 @@
 .mobContCourses p{
 	transform: skewX(.10rad);
 	font-family: "azo-sans-web";
-	position: relative;
 	max-width: 430px;
-	left: 10px;
-	margin: 3rem auto 3rem auto;
+	position: relative;
+	left: 5px;
+	margin: auto;
 	font-size: 1.5rem;
 	font-weight: 300;
-	padding: 0;
+	padding: 2rem 15px;
 }
 .mobSectCourses{
 	margin: 1rem auto;
@@ -287,6 +399,7 @@
 	transform: skewX(0rad);
 }
 .coursesDivide {
+	display: none;
 	transform: skewX(0rad);
 	max-width: 330px;
 	width: 100%;
@@ -295,6 +408,17 @@
 }
 .courseSpacer {
 	padding: 1rem;
+}
+.mobSectCourses button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	opacity: .6;
+}
+
+.mobSectCourses button:hover{
+	background-color: #f0f0f0;
+	opacity: 1;
 }
 }
 
@@ -311,11 +435,11 @@
 	font-family: "azo-sans-web";
 	position: relative;
 	max-width: 430px;
-	left: 10px;
-	margin: 3rem auto 3rem auto;
+	left: 5px;
+	margin: 0;
 	font-size: 1.2rem;
 	font-weight: 300;
-	padding: 0;
+	padding: 15px;
 }
 .courseItem img {
 	max-height: 80px;
@@ -323,6 +447,17 @@
 .coursesDivide {
 	max-width: 300px;
 	margin: -1.5rem auto 2rem auto;
+}
+.mobSectCourses button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	opacity: .6;
+}
+
+.mobSectCourses button:hover{
+	background-color: #f0f0f0;
+	opacity: 1;
 }
 }
 
@@ -339,11 +474,11 @@
 	font-family: "azo-sans-web";
 	position: relative;
 	max-width: 430px;
-	left: 10px;
-	margin: 3rem auto 3rem auto;
+	left: 5px;
+	margin: 0;
 	font-size: 1.2rem;
 	font-weight: 300;
-	padding: 0;
+	padding: 15px;
 }
 .mobSectCourses ul{
 	margin: auto;
@@ -359,5 +494,16 @@
 .coursesDivide {
 	max-width: 200px;
 	margin: -1.5rem auto 2rem 1rem;
+}
+.mobSectCourses button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	opacity: .6;
+}
+
+.mobSectCourses button:hover{
+	background-color: #f0f0f0;
+	opacity: 1;
 }
 }
