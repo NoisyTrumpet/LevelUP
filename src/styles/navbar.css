@@ -9,8 +9,14 @@
 	transition: 500ms ease;
 }
 
+.scrolled {
+	background-color: #ffffff;
+	transition: 200ms ease;
+}
+
 .toolbar.scrolled {
-	background:#000;
+	background-color: #ffffff;
+	transition: 200ms ease;
 }
 
 .toolbar_logo {
