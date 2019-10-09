@@ -13,14 +13,14 @@ const Footer = ({ siteTitle }) => (
     $('a[rel="relativeanchor"]').click(function () {
       $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
-      }, 500);
+      }, 250);
       return false;
     });
   }),
 
   <footer id="footer" className="footer">
     <div className="directUP">
-      <a href="#top" rel="relativeanchor"><span className="paddImg padUP"></span></a>
+      <a href="#topTargetDesktop" rel="relativeanchor"><span className="paddImg padUP"></span></a>
       {/* <a href="#top" className="paddingImg padUP" id="bottom"></a> */}
     </div>
 

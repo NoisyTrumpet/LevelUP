@@ -43,7 +43,7 @@ const Navbar = () => (
     <nav className="toolbar_nav">
 
       <div id="MobileMenu" className="mNav" tabIndex="0">
-        <div className="mNav-dropdown" id="top">
+        <div className="mNav-dropdown" id="topTargetMobile">
           <a id="toAbout" rel="relativeanchor" href="#targetAbout">About</a>
           <a id="toCollaborate" rel="relativeanchor" href="#targetCollaborate">Collaborate</a>
           <a id="toContact" rel="relativeanchor" href="#targetContact">Contact</a>
@@ -53,7 +53,7 @@ const Navbar = () => (
       <div className="toolbar_logo"><a href="/"><img src={Logo} alt="" /></a></div>
       <div className="spacer"><img src={NavLine} className="navDivide" alt="" /></div>
       
-      <div id="DesktopMenu" className="toolbar_nav_items">
+      <div id="DesktopMenu" className="toolbar_nav_items" id="topTargetDesktop">
         <ul>
           <li><a id="toAbout" rel="relativeanchor" href="#targetAbout">About</a></li>
           <li><a id="toCollaborate" rel="relativeanchor" href="#targetCollaborate">Collaborate</a></li>

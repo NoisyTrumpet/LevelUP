@@ -47,8 +47,8 @@ const Header = ({ siteTitle }) => (
 
     <div className="gradient">
       <div id="downArrow" className="dwnPad">
-        <a href="#footer" rel="relativeanchor"><span className="padImg padDwn"></span></a>
-        {/* <a href="#footer" rel="relativeanchor" className="padImg padDwn"></a> */}
+        {/* <a href="#footer" rel="relativeanchor"><span className="padImg padDwn"></span></a> */}
+        <a href="#footer" rel="relativeanchor" className="padImg padDwn"></a>
       </div>
     </div>
 
