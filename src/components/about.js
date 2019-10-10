@@ -1,19 +1,20 @@
-import React from "react"
+import React from 'react'
 import { COLORS } from "../styles/constants"
 
 import SideLine from "../images/sideLine.png"
 import BodyLine from "../images/bodyLine.png"
 
-import '../styles/about.css'
+import aboutStyles from '../styles/about.module.scss'
 
-const About = () => (
-<div id="about" className="aboutMain">
+const About = () => {
+	return (
+		<div id="about" className={aboutStyles.aboutMain}>
     
-        <h1 className="aboutSect">About</h1>
+        <h1 className={aboutStyles.aboutSect}>About</h1>
 
-      <div className="mobBack">
-        <div className="mobCont">
-          <h2 className="cardSubTitle"> Change<br/>the Game <br />
+      <div className={aboutStyles.mobBack}>
+        <div className={aboutStyles.mobCont}>
+          <h2 className={aboutStyles.cardSubTitle}> Change<br/>the Game <br />
           <img src={BodyLine} alt="" /> </h2>
           <p><strong>LevelUP</strong> combines commercial best practices with DoD resources to code 
           rapidly deployable software solutions. By embracing a startup model that replaces 
@@ -23,8 +24,8 @@ const About = () => (
         </div>
       </div>
         
-<div className="cardSect">
-   <content
+<div className={aboutStyles.cardSect}>
+   <div
       style={{
         display: "grid",
         alignItems: "center",
@@ -35,10 +36,10 @@ const About = () => (
       }}
     >
 
-    <div className="cards">
-      <div className="skewCard">
-        <div className="cardCont">
-          <h2 className="cardSubTitle"> Change<br/>the Game <br />
+    <div className={aboutStyles.cards}>
+      <div className={aboutStyles.skewCard}>
+        <div className={aboutStyles.cardCont}>
+          <h2 className={aboutStyles.cardSubTitle}> Change<br/>the Game <br />
           <img src={BodyLine} alt="" /> </h2>
           <p><strong>LevelUP</strong> combines commercial best practices with DoD resources to code 
           rapidly deployable software solutions. By embracing a startup model that replaces 
@@ -49,29 +50,30 @@ const About = () => (
       </div>
     </div>
 
-    <div className="cards">
-      <div className="skewCardBack">
+    <div className={aboutStyles.cards}>
+      <div className={aboutStyles.skewCardBack}>
       </div>
     </div>
 
-      <div className="cards">
-        <div className="sideLine">
+      <div className={aboutStyles.cards}>
+        <div className={aboutStyles.sideLine}>
           <img src={SideLine} alt="" />
         </div>
       </div>
 
-    </content>
+    </div>
 </div>
 
-  <div className="bottomSect" style={{color: COLORS.levelUpBlue}}>
+  <div className={aboutStyles.bottomSect} style={{color: COLORS.levelUpBlue}}>
     <h2>We're not just here to <span style={{color: COLORS.levelUpPurple}}>change the<br/>
     game.</span> We're here to<br/>
-    <span className="botChan1">Win it</span></h2>
+    <span className={aboutStyles.botChan1}>Win it</span></h2>
 
-    <img src={BodyLine} alt="" className="bottomLine" />
+    <img src={BodyLine} alt="" className={aboutStyles.bottomLine} />
   </div>
 
 </div>
-)
+	)
+}
 
 export default About

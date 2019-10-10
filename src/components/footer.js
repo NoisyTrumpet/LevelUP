@@ -4,28 +4,28 @@ import PropTypes from "prop-types"
 // import { COLORS } from "../styles/constants"
 import Logo from "../images/LevelUp-Logo.png"
 
-import "../styles/footer.css"
+import footerStyles from '../styles/footer.module.scss'
 
 const Footer = ({ siteTitle }) => (
-  <footer className="footer">
-    <div className="directUP">
-      <span className="paddImg padUP"></span>
+  <footer className={footerStyles.footer}>
+    <div className={footerStyles.directUP}>
+      <span className={footerStyles.padUP }></span>
 
     </div>
 
-    <div className="footMain">
+    <div className={footerStyles.footMain}>
       <img src={Logo} alt="LevelUP Logo" />
     </div>
     <div style={{maxWidth: 500, margin: "auto"}}>
-      <div className="footSocial">
-        <a href="https://www.facebook.com/LevelUPCodeWorks"><span className="socialIcon faceBook"></span></a>
-        <a href="https://www.instagram.com/levelup_cw/"><span className="socialIcon instaGram"></span></a>
-        <a href="https://twitter.com/LevelUP_CW"><span className="socialIcon twitTer"></span></a>
-        <a href="https://www.linkedin.com/company/23748736"><span className="socialIcon linkeDin"></span></a>
+      <div className={footerStyles.footSocial}>
+        <a href="https://www.facebook.com/LevelUPCodeWorks"><span className={`${footerStyles.socialIcon} ${footerStyles.faceBook}`}></span></a>
+        <a href="https://www.instagram.com/levelup_cw/"><span className={`${footerStyles.socialIcon} ${footerStyles.instaGram}`}></span></a>
+        <a href="https://twitter.com/LevelUP_CW"><span className={`${footerStyles.socialIcon} ${footerStyles.twitTer}`}></span></a>
+        <a href="https://www.linkedin.com/company/23748736"><span className={`${footerStyles.socialIcon} ${footerStyles.linkeDin}`}></span></a>
       </div>
     </div>
-    <div className="footerLinks">
-      <ul className="footerLinks1">
+    <div className={footerStyles.footerLinks}>
+      <ul className={footerStyles.footerLinks1}>
         <li><a href="https://www.af.mil/RSS/">RSS</a></li>
         <li><a href="https://www.afinspectorgeneral.af.mil">IG</a></li>
         <li><a href="https://www.foia.af.mil">FOIA</a></li>
@@ -34,7 +34,7 @@ const Footer = ({ siteTitle }) => (
         <li><a href="https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx">Accessibility</a></li>
         <li><a href="https://www.af.mil/AF-Sites/">AF Sites</a></li>
       </ul>
-      <ul className="footerLinks2">
+      <ul className={footerStyles.footerLinks2}>
         <li><a href="/">Link Disclaimer</a></li>
         <li><a href="https://www.af.mil/Portals/1/documents/AF_Executive_Fleet.pdf">AF Executive Fleet</a></li>
         <li><a href="https://prhome.defense.gov/NoFear/">No FEAR Act</a></li>
