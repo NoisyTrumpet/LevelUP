@@ -125,7 +125,6 @@ const Courses = () => {
                 />
               </ScrollAnimation>
 
-              <div className={courseStyles.courseSpacer} />
               <div
                 className={courseStyles.courseItem}
                 onClick={() => setSelectedCourse("realTimeStrategy")}
